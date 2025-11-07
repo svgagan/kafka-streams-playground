@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: fraud-detection-system
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      client-id: fraud-detection-system
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    streams:
+      application-id: fraud-detection-system
+      properties:
+        default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+        default.value.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+
