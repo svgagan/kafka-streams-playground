@@ -32,6 +32,6 @@ Run the Spring Boot application locally using your IDE or with Gradle:
 
 Once the application is running, you can access the Swagger UI to produce messages to Kafka:
 
-[http://localhost:8091/swagger-ui/index.html#/](http://localhost:8091/swagger-ui/index.html#/)
+[Swagger-UI](http://localhost:8091/swagger-ui/index.html#/)
 
 Use the available endpoints to interact with the Kafka topics.
